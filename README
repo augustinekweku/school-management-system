@@ -1,0 +1,19 @@
+// !Root of the server => /
+// !Allowed http methods includes => [get, post, patch, delete]
+
+// !BaseUrl=
+
+// ! School Administrator Registration
+
+// Endpoint => BaseUrl/api/users/
+// Method => POST
+// Parameter => [
+// !firstname => Only english alphabets and whitespaces (maxlength => 50 chars),
+// !lastname => Only english alphabets and whitespaces (maxlength => 50 chars),
+// !email => Email type data (string),
+// !gender => [1 => male, 2 => female],
+// !phone => Numeric string of 13 chars (Country code inclusive)
+// !password => Combination of letters, numbers and special chars,
+// !school_name => Alpha, numeric, hyphen and dot,
+// !school_country => String
+// ]
